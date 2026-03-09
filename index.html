@@ -986,6 +986,25 @@
         </div>
     </footer>
 
+    <!-- Vercel Analytics -->
+    <script>
+        // Import and initialize Vercel Analytics
+        (function() {
+            // Create script element for Vercel Analytics
+            var script = document.createElement('script');
+            script.src = 'https://va.vercel-scripts.com/v1/analytics.js';
+            script.async = true;
+            script.defer = true;
+            script.setAttribute('data-id', 'prj_qyN0Mq96R307kckFIaVMbRdPIscd'); // Replace with your actual Vercel Analytics ID
+            
+            // Insert the script
+            document.head.appendChild(script);
+            
+            // Initialize analytics
+            window.va = window.va || function() {(window.va.q = window.va.q || []).push(arguments);};
+        })();
+    </script>
+
     <script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
